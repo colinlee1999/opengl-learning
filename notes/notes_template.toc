@@ -1,5 +1,7 @@
 \contentsline {section}{\numberline {1}Lesson01 Setting Up An OpenGL Window}{1}{section.1}
-\contentsline {section}{\numberline {2}Lesson02 Your First Polygon}{1}{section.2}
+\contentsline {section}{\numberline {2}Lesson02 Your First Polygon}{2}{section.2}
 \contentsline {section}{\numberline {3}Lesson03 Adding Color}{2}{section.3}
 \contentsline {section}{\numberline {4}Lesson04 Rotation}{2}{section.4}
-\contentsline {section}{\numberline {5}Outline Fonts}{2}{section.5}
+\contentsline {section}{\numberline {5}Lesson05 3D Shapes}{2}{section.5}
+\contentsline {section}{\numberline {6}Lesson06 Texture Mapping}{2}{section.6}
+\contentsline {section}{\numberline {7}Outline Fonts}{2}{section.7}
