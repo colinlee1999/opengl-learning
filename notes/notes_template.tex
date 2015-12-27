@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+
+\usepackage{bm, listings, color}
+\usepackage{hyperref}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\usepackage{amsmath, amssymb, amsfonts, plain, graphicx, url}
+%\usepackage{setspace}
+\usepackage{placeins}
+%\usepackage{subfigure}
+\marginparwidth 0pt \oddsidemargin 0pt \marginparsep 0pt
+\topmargin 0pt \textwidth 6.5in \textheight 8.5in
+
+%\onehalfspacing
+
+\newcommand{\mb}[1]{{\boldsymbol{#1}}}
+\newcommand\myC[1]{{\cal #1}\,}
+\def\logit{{\rm logit}\,}
+\def\N{{\rm N}\,}
+\def\E{{\rm E}\,}
+\def\vec{{\rm vec}\,}
+\def\vech{{\rm vech}\,}
+\def\Var{{\rm Var}\,}
+\def\Cov{{\rm Cov}\,}
+\def\wCov{\widehat{\rm Cov}\,}
+\def\Q{\mb{Q}}
+\def\I{\mb{I}}
+\def\V{\mb{V}}
+\def\B{\mb{B}}
+\def\D{\mb{D}}
+\def\C{\mb{C}}
+\def\W{\mb{W}}
+\def\A{\mb{A}}
+\def\H{\mb{H}}
+\def\Y{{\bf Y}}
+\def\y{{\bf y}}
+\def\Z{\mb{Z}}
+%\def\thbf{\mbox{\boldmath $\theta$}}
+\def\thbf{\mb{\theta}}
+\def\mbS{\mb{\Sigma}}
+\def\mbmu{\mb{\mu}}
+\def\mbI{\mb{I}}
+\def\hmbS{\hat{\mb{\Sigma}}}
+\def\mbT{\mb{\Theta}}
+\def\hmbT{\hat{\mb{\Theta}}}
+\def\mbw{\mb{w}}
+\newcommand{\oo}{\infty}
+\def\diam{\,{\rm diam}\,}
+\def\chs{\,{\rm chs}\,}
+\def\join{\,{\rm join}\,}
+\def\x{{\bf x}}
+\def\X{{\bf X}}
+\def\mbx{{\bf x}}
+\def\mbX{{\bf X}}
+\def\diag{{\rm diag}}
+
+\begin{document}
+\begin{center}
+{\Large\bf Notes on OpenGL Learning}
+
+Yunfeng Li
+
+\today
+
+\end{center}
+
+\hrule
+
+ \tableofcontents
+\vskip 0.5cm \hrule
+
+\input{notes.tex}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

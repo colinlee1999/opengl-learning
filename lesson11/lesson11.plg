@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lesson11 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lee\AppData\Local\Temp\RSPB1B6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/lesson11.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents\VC6.0\OpenGL\lesson11\lesson11.cpp"
+]
+Creating command line "cl.exe @C:\Users\lee\AppData\Local\Temp\RSPB1B6.tmp" 
+Creating temporary file "C:\Users\lee\AppData\Local\Temp\RSPB1B7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/lesson11.pdb" /debug /machine:I386 /out:"Debug/lesson11.exe" /pdbtype:sept 
+.\Debug\lesson11.obj
+]
+Creating command line "link.exe @C:\Users\lee\AppData\Local\Temp\RSPB1B7.tmp"
+<h3>Output Window</h3>
+Compiling...
+lesson11.cpp
+D:\Documents\VC6.0\OpenGL\lesson11\lesson11.cpp(422) : warning C4715: 'WndProc' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+lesson11.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
